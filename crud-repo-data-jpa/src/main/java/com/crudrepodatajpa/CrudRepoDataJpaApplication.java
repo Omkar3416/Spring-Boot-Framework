@@ -15,15 +15,15 @@ public class CrudRepoDataJpaApplication {
         SpringApplication.run(CrudRepoDataJpaApplication.class, args);
     }
 
-    @Bean
-    CommandLineRunner runner(StudentRepository studentRepository) {
-        return args -> {
-
-            studentRepository.save(
-                    new Student(101, "ppp", 60.0, Gender.MALE)
-            );
-
-        };
-    }
+//    @Bean
+//    CommandLineRunner runner(StudentRepository studentRepository) {
+//        return args -> {
+//
+//            studentRepository.save(
+//                    new Student(101, "ppp", 60.0, Gender.MALE)
+//            );
+//
+//        };
+//    }
 
 }

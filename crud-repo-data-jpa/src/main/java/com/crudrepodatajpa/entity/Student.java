@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+
 @Entity
 @Table(name="STUDENT")
 @NoArgsConstructor
@@ -25,4 +27,7 @@ public class Student {
     @Enumerated(EnumType.STRING)
     @Column(name="GENDER")
     private Gender gender;
+
+    @Column(name="Birth_Date")
+    private LocalDate birthDate;
 }
