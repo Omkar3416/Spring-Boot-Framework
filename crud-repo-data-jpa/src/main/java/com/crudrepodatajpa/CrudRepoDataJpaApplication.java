@@ -18,7 +18,7 @@ public class CrudRepoDataJpaApplication {
 //    @Bean
 //    CommandLineRunner runner(StudentRepository studentRepository) {
 //        return args -> {
-//
+//Z
 //            studentRepository.save(
 //                    new Student(101, "ppp", 60.0, Gender.MALE)
 //            );
